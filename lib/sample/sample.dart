@@ -1,3 +1,4 @@
+import 'package:CXFlutter/sample/MyFadeTest.dart';
 import 'package:CXFlutter/sample/SampleAppPage.dart';
 import 'package:flutter/material.dart';
 
@@ -12,7 +13,8 @@ class _SampleAppState extends State<SampleApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: SapmleAppPage(),
+      title: 'Sample App',
+      home: MyFadeTest(title: 'Fade Demo'),
     );
   }
 }
