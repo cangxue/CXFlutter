@@ -1,5 +1,6 @@
 import 'package:CXFlutter/sample/MyFadeTest.dart';
 import 'package:CXFlutter/sample/SampleAppPage.dart';
+import 'package:CXFlutter/sample/SignaturePainter.dart';
 import 'package:flutter/material.dart';
 
 class SampleApp extends StatefulWidget {
@@ -14,7 +15,7 @@ class _SampleAppState extends State<SampleApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Sample App',
-      home: MyFadeTest(title: 'Fade Demo'),
+      home: Signature(),
     );
   }
 }
