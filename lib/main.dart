@@ -1,3 +1,4 @@
+import 'package:CXFlutter/sample/sample.dart';
 import 'package:CXFlutter/wechat/public/wechat.dart';
 import 'package:flutter/material.dart';
 
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
         // closer together (more dense) than on mobile platforms.
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: WeChat(),
+      home: SampleApp(),
     );
   }
 }
