@@ -1,3 +1,4 @@
+import 'package:CXFlutter/sample/ASyncTest.dart';
 import 'package:CXFlutter/sample/MyFadeTest.dart';
 import 'package:CXFlutter/sample/SampleAppPage.dart';
 import 'package:CXFlutter/sample/SignaturePainter.dart';
@@ -15,7 +16,7 @@ class _SampleAppState extends State<SampleApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Sample App',
-      home: Signature(),
+      home: ASyncTest(),
     );
   }
 }
